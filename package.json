@@ -1,7 +1,7 @@
 {
   "name": "rumesh-guest-page",
   "version": "0.1.0",
-  "homepage": "https://kavishkadeshan1.github.io/rumeshguestpage",
+  "homepage": "https://rumeshguest.page",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
