@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rumeshguestpage/static/css/main.2691ec17.css",
+    "main.js": "/rumeshguestpage/static/js/main.ec6b90f9.js",
+    "index.html": "/rumeshguestpage/index.html",
+    "main.2691ec17.css.map": "/rumeshguestpage/static/css/main.2691ec17.css.map",
+    "main.ec6b90f9.js.map": "/rumeshguestpage/static/js/main.ec6b90f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2691ec17.css",
+    "static/js/main.ec6b90f9.js"
+  ]
+}
