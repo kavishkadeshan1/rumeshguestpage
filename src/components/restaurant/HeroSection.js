@@ -22,13 +22,13 @@ function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto animate-fade-in">
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-4 sm:mb-6 leading-tight">
           Rumesh Guest
         </h1>
-        <p className="text-xl sm:text-2xl md:text-3xl text-primary-200 mb-4 font-serif italic">
+        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-primary-200 mb-3 sm:mb-4 font-serif italic">
           Where Every Meal Tells a Story
         </p>
-        <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 mb-8 sm:mb-10 max-w-2xl mx-auto px-2">
           Experience authentic flavors crafted with passion. From traditional favorites to contemporary delights, 
           we serve memories on every plate.
         </p>

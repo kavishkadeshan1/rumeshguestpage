@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-white to-primary-50">
+    <section id="about" className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-primary-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
           {/* Image Side */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
@@ -21,11 +21,11 @@ function About() {
           </div>
 
           {/* Content Side */}
-          <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <div className="space-y-4 sm:space-y-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3 sm:mb-4">
               Our Story
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
               Welcome to <span className="text-primary-600 font-semibold">Rumesh Guest</span>, where culinary 
               tradition meets modern innovation. For over two decades, we've been serving our community with 
               authentic flavors and warm hospitality.

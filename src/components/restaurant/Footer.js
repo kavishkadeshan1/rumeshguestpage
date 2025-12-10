@@ -9,13 +9,13 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white pt-16 pb-8">
+    <footer className="bg-gray-900 text-white pt-12 sm:pt-16 pb-6 sm:pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10 md:gap-12 mb-10 sm:mb-12">
           {/* Brand Section */}
-          <div className="col-span-2 md:col-span-1">
-            <h3 className="text-2xl font-bold mb-4 text-primary-400">Rumesh Guest</h3>
-            <p className="text-gray-400 mb-6 leading-relaxed">
+          <div className="sm:col-span-2 md:col-span-1">
+            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-primary-400">Rumesh Guest</h3>
+            <p className="text-gray-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
               Where every meal tells a story. Experience authentic flavors and warm hospitality since 1998.
             </p>
             <div className="flex space-x-4">

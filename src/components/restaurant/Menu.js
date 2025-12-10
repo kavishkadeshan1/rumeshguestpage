@@ -90,10 +90,10 @@ function Menu() {
   ];
 
   return (
-    <section id="menu" className="py-20 bg-white">
+    <section id="menu" className="py-12 sm:py-16 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+        <div className="text-center mb-10 sm:mb-12 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3 sm:mb-4">
             Our Menu
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -102,7 +102,7 @@ function Menu() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
           {menuItems.map((item, index) => (
             <MenuCard key={index} {...item} />
           ))}
