@@ -1,37 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Navigation from './components/Navigation';
-import Home from './components/Home';
-import About from './components/About';
-
-/*
- * DEPLOYMENT INSTRUCTIONS:
- * 
- * 1. Install dependencies:
- *    npm install
- * 
- * 2. Deploy to GitHub Pages:
- *    npm run deploy
- * 
- * This will build and push to the gh-pages branch automatically.
- * Your site will be live at: https://rumeshguest.page
- * 
- * Note: The basename="" works for custom domains.
- * If using github.io subdomain, change to basename="/rumeshguestpage"
- */
+import Navbar from './components/restaurant/Navbar';
+import HeroSection from './components/restaurant/HeroSection';
+import About from './components/restaurant/About';
+import Menu from './components/restaurant/Menu';
+import SpecialDishes from './components/restaurant/SpecialDishes';
+import Reviews from './components/restaurant/Reviews';
+import Gallery from './components/restaurant/Gallery';
+import Contact from './components/restaurant/Contact';
+import Footer from './components/restaurant/Footer';
 
 function App() {
   return (
-    <Router basename="">
-      <div className="app">
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <HeroSection />
+      <About />
+      <Menu />
+      <SpecialDishes />
+      <Reviews />
+      <Gallery />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
